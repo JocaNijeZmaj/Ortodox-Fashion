@@ -627,6 +627,9 @@ strong {
 .social-icon-link:hover {
   color: var(--primary-color);
 }
+.div-slide {
+  
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
@@ -708,4 +711,14 @@ strong {
     font-size: 22px;
   }
 }
-
+@media screen and (max-width: 1400px) {
+  .head-text {
+    font-size: 1.4rem
+  }
+  .head-text2 {
+    font-size: 1.1rem
+  }
+  .team-image {
+  height: 635px;
+}
+}
